@@ -1,0 +1,29 @@
+.header {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo {
+        display: flex;
+        
+        gap: 20px;
+        
+    }
+
+    &__text {
+        display: flex;
+        width: 129px;
+        height: 60px;
+        line-height: 140%;
+        @extend %semibold;
+        
+    }
+
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+}
